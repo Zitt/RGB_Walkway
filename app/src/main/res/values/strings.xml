@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">EdisonTest</string>
+    <string name="app_name">WalkwayRGB</string>
+    <string name="hello_world">Hello world!</string>
 </resources>
