@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pinball_mods.walkwayrgb">
-
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="com.google.android.things.permission.MANAGE_INPUT_DRIVERS" />
-    <uses-permission android:name="com.google.android.things.permission.MANAGE_SENSOR_DRIVERS" />
+    package="com.pinball_mods.zitt.edisontest">
 
     <application>
         <uses-library android:name="com.google.android.things" />
@@ -13,12 +8,14 @@
         <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.IOT_LAUNCHER" />
-                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
